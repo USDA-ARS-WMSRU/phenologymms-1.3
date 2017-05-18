@@ -1,0 +1,60 @@
+This file contains all sorghum cultivars used by Phenology MMS. the format is
+      as follows:
+
+*** 
+<Variety name>
+GDD,<StoE,<EtoFirstT>,<EtoIES>,<IEStoJ>,<EtoGPD>,<GPDtoELG>,<ELGtoAS>,<AStoHB>,<HBtoFB>,<AStoM>,<MtoHR>
+GDDstress,<StoE,<EtoFirstT>,<EtoIES>,<IEStoJ>,<EtoGPD>,<GPDtoELG>,<ELGtoAS>,<AStoHB>,<HBtoFB>,<AStoM>,<MtoHR>
+LVS,<StoE,<EtoFirstT>,<EtoIES>,<IEStoJ>,<EtoGPD>,<GPDtoELG>,<ELGtoAS>,<AStoHB>,<HBtoFB>,<AStoM>,<MtoHR>
+LVSstress,<StoE,<EtoFirstT>,<EtoIES>,<IEStoJ>,<EtoGPD>,<GPDtoELG>,<ELGtoAS>,<AStoHB>,<HBtoFB>,<AStoM>,<MtoHR>
+THREE ***  THE DATA BEGINS BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 3 asterisks (***), which separates
+each variety.
+
+The line following the 3 asterisks line gives the variety name.
+
+The next four lines give either the unstressed growing degree-days (first line), stressed
+growing degree-days (second line), unstressed number of leaves (third line), or stressed
+number of leaves (fourth line) for each of the intervals.
+
+Each variety is separated by three asterisks.
+
+Reference for the Phyllochron value is: Peter Q. Craufurd, Aiming Qi, Richard H. Ellis, 
+Rodney J. Summerfield, Eric H. Roberts, and Vishwanathan Mahalakshmi.  1998. Effect of 
+temperature on time to panicle initiation and leaf appearance in sorghum.  
+Crop Sci. 38:942-947.
+
+
+***
+Generic                                                            
+GDD,       100, 135, 499,  45, 450, 184,  80,  80, 120, 525, 300   
+GDDstress, 100, 135, 499,  45, 450, 184,  97,  97, 145, 486, 225   
+LVS,       2.2, 3.0, 11.1, 1.0, 10.0, 4.1, 1.8, 1.8, 2.7, 11.6, 6.7
+LVSstress, 2.2, 3.0, 11.1, 1.0, 10.0, 4.1, 2.1, 2.1, 3.2, 10.8, 5.0
+***
+Early Maturity                                                   
+GDD,       100, 135, 430,  45, 405, 160,  80,  80, 120, 550, 300 
+GDDstress, 100, 135, 430,  45, 405, 160, 116, 116, 145, 499, 225 
+LVS,       2.2, 3.0, 9.6, 1.0, 9.0, 3.6, 1.8, 1.8, 2.7, 11.9, 6.7
+LVSstress, 2.2, 3.0, 9.6, 1.0, 9.0, 3.6, 2.1, 2.1, 3.2, 11.1, 5.0
+***
+Medium Maturity
+GDD,       100, 135, 499,  45, 450, 184,  80,  80, 120, 525, 300
+GDDstress, 100, 135, 499,  45, 450, 184,  97,  97, 145, 486, 225
+LVS,       2.2, 3.0, 11.1, 1.0, 10.0, 4.1, 1.8, 1.8, 2.7, 11.6, 6.7
+LVSstress, 2.2, 3.0, 11.1, 1.0, 10.0, 4.1, 2.1, 2.1, 3.2, 10.8, 5.0
+***
+Late Maturity
+GDD,       100, 135, 591,  45, 495, 231,  80,  80, 120, 538, 300
+GDDstress, 100, 135, 591,  45, 495, 231,  97,  97, 145, 499, 225
+LVS,       2.2, 3.0, 13.1, 1.0, 11.0, 5.1, 1.8, 1.8, 2.7, 11.9, 6.7
+LVSstress, 2.2, 3.0, 13.1, 1.0, 11.0, 5.1, 2.1, 2.1, 3.2, 11.1, 5.0
+***
+TEST TEST
+GDD,       100, 135, 591,  45, 495, 231,  80,  80, 120, 538, 300
+GDDstress, 100, 135, 591,  45, 495, 231,  97,  97, 145, 499, 225
+LVS,       2.2, 3.0, 13.1, 1.0, 11.0, 5.1, 1.8, 1.8, 2.7, 11.9, 6.7
+LVSstress, 2.2, 3.0, 13.1, 1.0, 11.0, 5.1, 2.1, 2.1, 3.2, 11.1, 5.0
+***
