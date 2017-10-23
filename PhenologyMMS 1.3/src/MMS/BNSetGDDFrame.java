@@ -249,7 +249,7 @@ public class BNSetGDDFrame extends JFrame {
 
 
     /**
-     *  Constructor for the SetUpTemplate object
+     *  Constructor for the BNSetGDDFrame object
      *
      *@param  SGHF    Description of the Parameter
      *@param  OPF     Description of the Parameter
@@ -1633,7 +1633,7 @@ public class BNSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                           "0.");
+                           "0.", "0.");
                             
 
 //    *********************** now we get the GDD stress stuff
@@ -1654,7 +1654,7 @@ public class BNSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                             "0.");
+                             "0.","0.");
                            
 
 //  **************************  now we get the LVS stuff
@@ -1675,7 +1675,7 @@ public class BNSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                             "0.");
+                             "0.","0.");
                             
 
 //     ************************** now we get the LVS stressed stuff
@@ -1696,7 +1696,7 @@ public class BNSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                            "0.");
+                            "0.","0.");
                             
 //    ************************ OK now the whole class should be loaded!!
                     fileLine = input.readLine();

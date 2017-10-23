@@ -1335,7 +1335,7 @@ public class HMSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                            " 0.", " 0.", " 0.", "0.");
+                            " 0.", " 0.", " 0.", "0.","0.");
 
 //    *********************** now we get the GDD stress stuff
                     chew = new StringTokenizer(input.readLine(), ",");
@@ -1352,7 +1352,7 @@ public class HMSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                            " 0.", " 0.", " 0.", "0.");
+                            " 0.", " 0.", " 0.", "0.","0.");
 
 //  **************************  now we get the LVS stuff
                     chew = new StringTokenizer(input.readLine(), ",");
@@ -1369,7 +1369,7 @@ public class HMSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                            " 0.", " 0.", " 0.", "0.");
+                            " 0.", " 0.", " 0.", "0.","0.");
 
 //     ************************** now we get the LVS stressed stuff
                     chew = new StringTokenizer(input.readLine(), ",");
@@ -1386,7 +1386,7 @@ public class HMSetGDDFrame extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
-                            " 0.", " 0.", " 0.", "0.");
+                            " 0.", " 0.", " 0.", "0.","0.");
 //    ************************ OK now the whole class should be loaded!!
                     fileLine = input.readLine();
                     fileLine = input.readLine();

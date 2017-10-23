@@ -19,6 +19,9 @@ package MMS;
  *edited comments Debbie Edmunds, March, 2005
  */
 
+ /* DE added code for 16 rows in the Growth Stages to accomodate Soybeans, 
+    Oct, 2017 */
+
 public class GrowthStages {
 
     public String myType;
@@ -157,6 +160,15 @@ public class GrowthStages {
     public String ROW15_LVS_ORG;
     public String ROW15_LVS_stress_ORG;
     public String ROW15_Choice;
+    public String ROW16;
+    public String ROW16_stress;
+    public String ROW16_LVS;
+    public String ROW16_LVS_stress;
+    public String ROW16_ORG;
+    public String ROW16_stress_ORG;
+    public String ROW16_LVS_ORG;
+    public String ROW16_LVS_stress_ORG;
+    public String ROW16_Choice;
 
     /**
      *  Constructor for the GrowthStages object
@@ -177,6 +189,7 @@ public class GrowthStages {
         this.setROW13_choice(1);
         this.setROW14_choice(1);
         this.setROW15_choice(1);
+        this.setROW16_choice(1);
     }
 
 
@@ -198,10 +211,12 @@ public class GrowthStages {
      *@param  C13  The new gDDStages value
      *@param  C14  The new gDDStages value
      *@param  C15  The new gDDStages value
+     *@param  C16  The new gDDStages value
      */
     public void setGDDStages(String C1, String C2, String C3,
             String C4, String C5, String C6, String C7, String C8, String C9,
-            String C10, String C11, String C12, String C13, String C14, String C15) {
+            String C10, String C11, String C12, String C13, String C14, 
+            String C15, String C16) {
 
         ROW1 = ROW1_ORG = C1;
         ROW2 = ROW2_ORG = C2;
@@ -218,6 +233,7 @@ public class GrowthStages {
         ROW13 = ROW13_ORG = C13;
         ROW14 = ROW14_ORG = C14;
         ROW15 = ROW15_ORG = C15;
+        ROW16 = ROW16_ORG = C16;
 
 //        this is put in here because the default is GDD no stress
         this.setROW1_choice(1);
@@ -235,13 +251,13 @@ public class GrowthStages {
         this.setROW13_choice(1);
         this.setROW14_choice(1);
         this.setROW15_choice(1);
+        this.setROW16_choice(1);
     }
 
 
     /**
      *  Sets the gDDStressed attribute of the GrowthStages object
      *
-     *@param  C16   The new gDDStressed value
      *@param  C17   The new gDDStressed value
      *@param  C18   The new gDDStressed value
      *@param  C19   The new gDDStressed value
@@ -256,35 +272,36 @@ public class GrowthStages {
      *@param  C28   The new gDDStressed value
      *@param  C29   The new gDDStressed value
      *@param  C30   The new gDDStressed value
+     *@param  C31   The new gDDStressed value
+     *@param  C32   The new gDDStressed value
      */
-    public void setGDDStressed(String C16, String C17, String C18,
-            String C19, String C20, String C21, String C22, String C23, String C24,
-            String C25, String C26, String C27, String C28, String C29, String C30) {
+    public void setGDDStressed(String C17, String C18, String C19, String C20,
+            String C21, String C22, String C23, String C24, String C25, 
+            String C26, String C27, String C28, String C29, String C30,
+            String C31, String C32) {
 
-        ROW1_stress = ROW1_stress_ORG = C16;
-        ROW2_stress = ROW2_stress_ORG = C17;
-        ROW3_stress = ROW3_stress_ORG = C18;
-        ROW4_stress = ROW4_stress_ORG = C19;
-        ROW5_stress = ROW5_stress_ORG = C20;
-        ROW6_stress = ROW6_stress_ORG = C21;
-        ROW7_stress = ROW7_stress_ORG = C22;
-        ROW8_stress = ROW8_stress_ORG = C23;
-        ROW9_stress = ROW9_stress_ORG = C24;
-        ROW10_stress = ROW10_stress_ORG = C25;
-        ROW11_stress = ROW11_stress_ORG = C26;
-        ROW12_stress = ROW12_stress_ORG = C27;
-        ROW13_stress = ROW13_stress_ORG = C28;
-        ROW14_stress = ROW14_stress_ORG = C29;
-        ROW15_stress = ROW15_stress_ORG = C30;
-
+        ROW1_stress = ROW1_stress_ORG = C17;
+        ROW2_stress = ROW2_stress_ORG = C18;
+        ROW3_stress = ROW3_stress_ORG = C19;
+        ROW4_stress = ROW4_stress_ORG = C20;
+        ROW5_stress = ROW5_stress_ORG = C21;
+        ROW6_stress = ROW6_stress_ORG = C22;
+        ROW7_stress = ROW7_stress_ORG = C23;
+        ROW8_stress = ROW8_stress_ORG = C24;
+        ROW9_stress = ROW9_stress_ORG = C25;
+        ROW10_stress = ROW10_stress_ORG = C26;
+        ROW11_stress = ROW11_stress_ORG = C27;
+        ROW12_stress = ROW12_stress_ORG = C28;
+        ROW13_stress = ROW13_stress_ORG = C29;
+        ROW14_stress = ROW14_stress_ORG = C30;
+        ROW15_stress = ROW15_stress_ORG = C31;
+        ROW16_stress = ROW16_stress_ORG = C32;
     }
 
 
     /**
      *  Sets the lVS attribute of the GrowthStages object
      *
-     *@param  C31  The new lVS value
-     *@param  C32  The new lVS value
      *@param  C33  The new lVS value
      *@param  C34  The new lVS value
      *@param  C35  The new lVS value
@@ -298,27 +315,31 @@ public class GrowthStages {
      *@param  C43  The new lVS value
      *@param  C44  The new lVS value
      *@param  C45  The new lVS value
+     *@param  C46  The new lVS value
+     *@param  C47  The new lVS value
+     *@param  C48  The new lVS value
      */
-    public void setLVS(String C31, String C32, String C33, String C34, 
-           String C35, String C36, String C37, String C38, String C39, 
-           String C40, String C41, String C42, String C43, String C44, 
-           String C45) {
+    public void setLVS(String C33, String C34, String C35, String C36, 
+           String C37, String C38, String C39, String C40, String C41, 
+           String C42, String C43, String C44, String C45, String C46, 
+           String C47, String C48) {
 
-        ROW1_LVS = ROW1_LVS_ORG = C31;
-        ROW2_LVS = ROW2_LVS_ORG = C32;
-        ROW3_LVS = ROW3_LVS_ORG = C33;
-        ROW4_LVS = ROW4_LVS_ORG = C34;
-        ROW5_LVS = ROW5_LVS_ORG = C35;
-        ROW6_LVS = ROW6_LVS_ORG = C36;
-        ROW7_LVS = ROW7_LVS_ORG = C37;
-        ROW8_LVS = ROW8_LVS_ORG = C38;
-        ROW9_LVS = ROW9_LVS_ORG = C39;
-        ROW10_LVS = ROW10_LVS_ORG = C40;
-        ROW11_LVS = ROW11_LVS_ORG = C41;
-        ROW12_LVS = ROW12_LVS_ORG = C42;
-        ROW13_LVS = ROW13_LVS_ORG = C43;
-        ROW14_LVS = ROW14_LVS_ORG = C44;
-        ROW15_LVS = ROW15_LVS_ORG = C45;
+        ROW1_LVS = ROW1_LVS_ORG = C33;
+        ROW2_LVS = ROW2_LVS_ORG = C34;
+        ROW3_LVS = ROW3_LVS_ORG = C35;
+        ROW4_LVS = ROW4_LVS_ORG = C36;
+        ROW5_LVS = ROW5_LVS_ORG = C37;
+        ROW6_LVS = ROW6_LVS_ORG = C38;
+        ROW7_LVS = ROW7_LVS_ORG = C39;
+        ROW8_LVS = ROW8_LVS_ORG = C40;
+        ROW9_LVS = ROW9_LVS_ORG = C41;
+        ROW10_LVS = ROW10_LVS_ORG = C42;
+        ROW11_LVS = ROW11_LVS_ORG = C43;
+        ROW12_LVS = ROW12_LVS_ORG = C44;
+        ROW13_LVS = ROW13_LVS_ORG = C45;
+        ROW14_LVS = ROW14_LVS_ORG = C46;
+        ROW15_LVS = ROW15_LVS_ORG = C47;
+        ROW16_LVS = ROW16_LVS_ORG = C48;
 
     }
 
@@ -326,9 +347,6 @@ public class GrowthStages {
     /**
      *  Sets the lVSstressed attribute of the GrowthStages object
      *
-     *@param  C46  The new lVSstressed value
-     *@param  C47  The new lVSstressed value
-     *@param  C48  The new lVSstressed value
      *@param  C49  The new lVSstressed value
      *@param  C50  The new lVSstressed value
      *@param  C51  The new lVSstressed value
@@ -341,27 +359,32 @@ public class GrowthStages {
      *@param  C58  The new lVSstressed value
      *@param  C59  The new lVSstressed value
      *@param  C60  The new lVSstressed value
+     *@param  C61  The new lVSstressed value
+     *@param  C62  The new lVSstressed value
+     *@param  C63  The new lVSstressed value
+     *@param  C64  The new lVSstressed value
      */
-    public void setLVSstressed(String C46, String C47, String C48, String C49, 
-            String C50, String C51, String C52, String C53,String C54,  
-            String C55, String C56, String C57, String C58, String C59,
-            String C60) {
+    public void setLVSstressed(String C49, String C50, String C51, String C52,
+            String C53,String C54, String C55, String C56, String C57,  
+            String C58, String C59, String C60, String C61, String C62,
+            String C63, String C64) {
 
-        ROW1_LVS_stress = ROW1_LVS_stress_ORG = C46;
-        ROW2_LVS_stress = ROW2_LVS_stress_ORG = C47;
-        ROW3_LVS_stress = ROW3_LVS_stress_ORG = C48;
-        ROW4_LVS_stress = ROW4_LVS_stress_ORG = C49;
-        ROW5_LVS_stress = ROW5_LVS_stress_ORG = C50;
-        ROW6_LVS_stress = ROW6_LVS_stress_ORG = C51;
-        ROW7_LVS_stress = ROW7_LVS_stress_ORG = C52;
-        ROW8_LVS_stress = ROW8_LVS_stress_ORG = C53;
-        ROW9_LVS_stress = ROW9_LVS_stress_ORG = C54;
-        ROW10_LVS_stress = ROW10_LVS_stress_ORG = C55;
-        ROW11_LVS_stress = ROW11_LVS_stress_ORG = C56;
-        ROW12_LVS_stress = ROW12_LVS_stress_ORG = C57;
-        ROW13_LVS_stress = ROW13_LVS_stress_ORG = C58;
-        ROW14_LVS_stress = ROW14_LVS_stress_ORG = C59;
-        ROW15_LVS_stress = ROW15_LVS_stress_ORG = C60;
+        ROW1_LVS_stress = ROW1_LVS_stress_ORG = C49;
+        ROW2_LVS_stress = ROW2_LVS_stress_ORG = C50;
+        ROW3_LVS_stress = ROW3_LVS_stress_ORG = C51;
+        ROW4_LVS_stress = ROW4_LVS_stress_ORG = C52;
+        ROW5_LVS_stress = ROW5_LVS_stress_ORG = C53;
+        ROW6_LVS_stress = ROW6_LVS_stress_ORG = C54;
+        ROW7_LVS_stress = ROW7_LVS_stress_ORG = C55;
+        ROW8_LVS_stress = ROW8_LVS_stress_ORG = C56;
+        ROW9_LVS_stress = ROW9_LVS_stress_ORG = C57;
+        ROW10_LVS_stress = ROW10_LVS_stress_ORG = C58;
+        ROW11_LVS_stress = ROW11_LVS_stress_ORG = C59;
+        ROW12_LVS_stress = ROW12_LVS_stress_ORG = C60;
+        ROW13_LVS_stress = ROW13_LVS_stress_ORG = C61;
+        ROW14_LVS_stress = ROW14_LVS_stress_ORG = C62;
+        ROW15_LVS_stress = ROW15_LVS_stress_ORG = C63;
+        ROW16_LVS_stress = ROW16_LVS_stress_ORG = C64;
 
     }
 
@@ -723,6 +746,30 @@ public class GrowthStages {
         }
 
     }
+    
+    
+    /**
+     *  Sets the rOW16_choice attribute of the GrowthStages object
+     *
+     *@param  choice  The new rOW16_choice value
+     */
+    public void setROW16_choice(int choice) {
+        switch (choice) {
+            case 2:
+                ROW16_Choice = "GS " + ROW15_stress;
+                break;
+            case 3:
+                ROW16_Choice = "LN " + ROW15_LVS;
+                break;
+            case 4:
+                ROW16_Choice = "LS " + ROW15_LVS_stress;
+                break;
+            default:
+                ROW16_Choice = "GN  " + ROW15;
+                break;
+        }
+
+    }
 
 
 
@@ -749,6 +796,7 @@ public class GrowthStages {
         myLine.append("ROW13 = " + ROW13_Choice + "\n");
         myLine.append("ROW14 = " + ROW14_Choice + "\n");
         myLine.append("ROW15 = " + ROW15_Choice + "\n");
+        myLine.append("ROW16 = " + ROW16_Choice + "\n");
         return myLine.toString();
 
     }
@@ -760,7 +808,7 @@ public class GrowthStages {
      *@return    The numberOfRows value
      */
     public int getNumberOfRows() {
-        return 15;
+        return 16;
     }
 
 }

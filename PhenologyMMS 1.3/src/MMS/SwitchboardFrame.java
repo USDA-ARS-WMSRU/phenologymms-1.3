@@ -633,6 +633,22 @@ public class SwitchboardFrame extends JFrame {
             myParameters.canopyHt = myParameters.canopyHt_ORG = "190.0";
             
             myParameters.myStages = new GrowthStages();
+            }else if (myParameters.cropType.equalsIgnoreCase("soybean")) {
+            myParameters.plantingDate = myParameters.plantingDate_ORG = "05/20/2004"; 
+            myParameters.plantingDepth = myParameters.plantingDepth_ORG = "3";
+            myParameters.plantingRate = myParameters.plantingRate_ORG = "27";  
+            myParameters.latitude = myParameters.latitude_ORG = "40.165";        
+            myParameters.soilMoisturePlanting = myParameters.soilMoisturePlanting_ORG = "Optimum";            
+            myParameters.GDDMethod = myParameters.GDDMethod_ORG = "2";
+            myParameters.phyllochronValue = myParameters.phyllochronValue_ORG = "54.0"; 
+            //de added          
+            myParameters.baseTemp = myParameters.baseTemp_ORG = "10";
+            myParameters.optimumTempLow = myParameters.optimumTempLow_ORG = "22";
+            myParameters.optimumTempUp = myParameters.optimumTempUp_ORG = "30";
+            myParameters.upperTemp = myParameters.upperTemp_ORG = "40";
+            myParameters.canopyHt = myParameters.canopyHt_ORG = "120.0";
+            
+            myParameters.myStages = new GrowthStages();
         //    myParameters.cropType = jCBCrop.getSelectedItem().toString().trim();
         }else{
             myParameters.plantingDate = myParameters.plantingDate_ORG = "09/15/2004"; 
@@ -683,7 +699,7 @@ public class SwitchboardFrame extends JFrame {
 
     // bcv added path find
     public String getAppPath(){
-       String tmp, c1;
+            String tmp, c1;
        tmp = "";
        int indx, mm;
                 try {                        
@@ -700,6 +716,7 @@ public class SwitchboardFrame extends JFrame {
                  }
        return tmp;       
    }
+
 
     
     /**
@@ -904,17 +921,18 @@ public class SwitchboardFrame extends JFrame {
             }
             SFSetGDDFrame tmp = (SFSetGDDFrame) customizeFrame;
             tmp.setBackReferance(this);
-        } else if (myParameters.cropType.equalsIgnoreCase("Template")) {
+        } else if (myParameters.cropType.equalsIgnoreCase("Soybean")) {
             if (fromLoad) {
-                customizeFrame = new SetUpTemplate(new SetGDDHelpFrame(), //new SwitchHelpFrame(), 
+                customizeFrame = new SYSetGDDFrame(new SetGDDHelpFrame(), //new SwitchHelpFrame(), 
                 new OutPutFrame(myParameters), myParameters, gData);
             } else {
-                customizeFrame = new SetUpTemplate(new SetGDDHelpFrame(), //new SwitchHelpFrame(), 
+                customizeFrame = new SYSetGDDFrame(new SetGDDHelpFrame(), //new SwitchHelpFrame(), 
                 new OutPutFrame(myParameters), myParameters);
             }
-            SetUpTemplate tmp = (SetUpTemplate) customizeFrame;
+            SYSetGDDFrame tmp = (SYSetGDDFrame) customizeFrame;
             tmp.setBackReferance(this);
         }
+        
     }  // end method setCustomizeFrame
 
 } // end class SwitchboardFrame

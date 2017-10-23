@@ -127,7 +127,7 @@ public class Run {
                 int r = p.waitFor();
 
                 System.out.println("r = " + r); //if r = 0 it completed successfully
-                System.out.println("Path to PhenologyMMS.exe " + fl1); //DE added
+               // System.out.println("Path to PhenologyMMS.exe " + fl1); //DE added
             }
             catch(InterruptedException ie){
             // this is left blank - no exception to be caught
@@ -273,6 +273,7 @@ public class Run {
 
                   //  for (int r = 0; r < 6; r++){
                        fileLine = input.readLine();//read the next line
+
                        StringTokenizer chew = new StringTokenizer(fileLine, ",");
                        // myParameters.vernalizArray[r] =
                          //       chew.nextToken().trim();

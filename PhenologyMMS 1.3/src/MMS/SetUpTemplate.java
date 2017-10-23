@@ -1626,12 +1626,14 @@ public class SetUpTemplate extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
+                            chew.nextToken().trim(),
                             chew.nextToken().trim());
 
 //    *********************** now we get the GDD stress stuff
                     chew = new StringTokenizer(input.readLine(), ",");
                     chew.nextToken();
                     thisStage.setGDDStressed(chew.nextToken().trim(),
+                            chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
@@ -1664,12 +1666,14 @@ public class SetUpTemplate extends JFrame {
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
+                            chew.nextToken().trim(),
                             chew.nextToken().trim());
 
 //     ************************** now we get the LVS stressed stuff
                     chew = new StringTokenizer(input.readLine(), ",");
                     chew.nextToken();
                     thisStage.setLVSstressed(chew.nextToken().trim(),
+                            chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),
                             chew.nextToken().trim(),

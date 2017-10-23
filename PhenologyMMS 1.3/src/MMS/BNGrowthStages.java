@@ -35,7 +35,7 @@ public class BNGrowthStages extends GrowthStages {
         myLine.append("R2 to Early Pod Set (R3)          = " + ROW9_Choice + "\n");
         myLine.append("R3 to Mid Pod Set (R4)            = " + ROW10_Choice + "\n");
         myLine.append("R4 to Early Seed Fill (R5)        = " + ROW11_Choice + "\n");
-        myLine.append("R5 to Mid seed Fill (R6)          = " + ROW12_Choice + "\n");
+        myLine.append("R5 to Mid Seed Fill (R6)          = " + ROW12_Choice + "\n");
         myLine.append("R6 to Physiological Maturity (R7) = " + ROW13_Choice + "\n");
         myLine.append("R7 to Harvest Ready (R8)          = " + ROW14_Choice + "\n");
         myLine.append("ROW15                             = " + ROW15_Choice + "\n");

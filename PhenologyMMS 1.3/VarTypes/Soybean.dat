@@ -1,0 +1,54 @@
+8This file contains all bean cultivars used by Phenology MMS. the format is
+      as follows:
+
+*** 
+<Variety name>
+GDD,<StoE>,<EtoCotyledonaryLvs>,<VCto1stTrifoliolateLf>,<V1to2ndTrifoliolateLf>,<V2to3rdTrifoliolateLf>,<V3to4thTrifoliolateLf>,<V4to5thTrifoliolateLf>,<V5toBeginningBloom>,<R1toFullBloom>,<R2toBeginningPod>,<R3toFullPod>,<R4toBeginningSeed>,<R5toFullSeed>,<R6toBeginningMaturity>,<R7toFullMaturity>,<R8toHR>
+GDDstress,<StoE>,<EtoCotyledonaryLvs>,<VCto1stTrifoliolateLf>,<V1to2ndTrifoliolateLf>,<V2to3rdTrifoliolateLf>,<V3to4thTrifoliolateLf>,<V4to5thTrifoliolateLf>,<V5toBeginningBloom>,<R1toFullBloom>,<R2toBeginningPod>,<R3toFullPod>,<R4toBeginningSeed>,<R5toFullSeed>,<R6toBeginningMaturity>,<R7toFullMaturity>,<R8toHR>
+LVS,<StoE>,<EtoCotyledonaryLvs>,<VCto1stTrifoliolateLf>,<V1to2ndTrifoliolateLf>,<V2to3rdTrifoliolateLf>,<V3to4thTrifoliolateLf>,<V4to5thTrifoliolateLf>,<V5toBeginningBloom>,<R1toFullBloom>,<R2toBeginningPod>,<R3toFullPod>,<R4toBeginningSeed>,<R5toFullSeed>,<R6toBeginningMaturity>,<R7toFullMaturity>,<R8toHR>
+LVSstress,<StoE>,<EtoCotyledonaryLvs>,<VCto1stTrifoliolateLf>,<V1to2ndTrifoliolateLf>,<V2to3rdTrifoliolateLf>,<V3to4thTrifoliolateLf>,<V4to5thTrifoliolateLf>,<V5toBeginningBloom>,<R1toFullBloom>,<R2toBeginningPod>,<R3toFullPod>,<R4toBeginningSeed>,<R5toFullSeed>,<R6toBeginningMaturity>,<R7toFullMaturity>,<R8toHR>
+THREE ***  THE DATA BEGIN BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 3 asterisks (***), which separates
+each variety.
+The line following the 3 asterisks line gives the variety name.
+
+The next four lines give either the unstressed growing degree-days (first line), stressed
+growing degree-days (second line), unstressed number of leaves (third line), or stressed
+number of leaves (fourth line) for each of the intervals.
+
+Each variety is separated by three asterisks.
+
+
+***
+Generic
+GDD,        89,  69,  78,  88,  83,  67,  63, 229,  30, 124, 108, 108, 157, 177,  66,  53
+GDDstress,  89,  75,  86,  97,  91,  74,  69, 225,  25, 100, 100, 100, 125, 150,  60,  53
+LVS,       1.6, 1.3, 1.4, 1.6, 1.5, 1.2, 1.2, 4.2, 0.6, 2.3, 2.0, 2.0, 2.9, 3.3, 1.2, 1.0
+LVSstress, 1.6, 1.4, 1.6, 1.8, 1.7, 1.4, 1.3, 4.2, 0.5, 1.9, 1.9, 1.9, 2.3, 2.8, 1.1, 1.0
+***                                                                                      
+Early Maturity
+GDD,        89,  69,  78,  88,  83,  67,  63, 200,  25, 100,  88,  88, 125, 150,  50,  53
+GDDstress,  89,  75,  86,  97,  91,  74,  69, 175,  20,  80,  80,  80, 100, 125,  45,  53
+LVS,       1.6, 1.3, 1.4, 1.6, 1.5, 1.2, 1.2, 3.7, 0.5, 1.9, 1.6, 1.6, 2.3, 2.8, 0.9, 1.0
+LVSstress, 1.6, 1.4, 1.6, 1.8, 1.7, 1.4, 1.3, 3.2, 0.4, 1.5, 1.5, 1.5, 1.9, 2.3, 0.8, 1.0
+***                                                                                      
+Medium Maturity
+GDD,       89,   69,  78,  88,  83,  67,  63, 229,  30, 124, 108, 108, 157, 177,  66,  53
+GDDstress, 89,   75,  86,  97,  91,  74,  69, 225,  25, 100, 100, 100, 125, 150,  60,  53
+LVS,       1.6, 1.3, 1.4, 1.6, 1.5, 1.2, 1.2, 4.2, 0.6, 2.3, 2.0, 2.0, 2.9, 3.3, 1.2, 1.0
+LVSstress, 1.6, 1.4, 1.6, 1.8, 1.7, 1.4, 1.3, 4.2, 0.5, 1.9, 1.9, 1.9, 2.3, 2.8, 1.1, 1.0
+***                                                                                      
+Full Season Maturity
+GDD,       89,   69,  78,  88,  83,  67,  63, 250,  35, 150, 128, 128, 177, 200,  85,  53
+GDDstress, 89,   75,  86,  97,  91,  74,  69, 235,  30, 125, 118, 118, 150, 175,  75,  53
+LVS,       1.6, 1.3, 1.4, 1.6, 1.5, 1.2, 1.2, 4.6, 0.6, 2.8, 2.4, 2.4, 3.3, 3.7, 1.6, 1.0
+LVSstress, 1.6, 1.4, 1.6, 1.8, 1.7, 1.4, 1.3, 4.4, 0.6, 2.3, 2.2, 2.2, 2.8, 3.2, 1.4, 1.0
+***                                                                                      
+Late Maturity
+GDD,       89,   69,  78,  88,  83,  67,  63, 250,  35, 150, 128, 128, 177, 200,  85,  53
+GDDstress, 89,   75,  86,  97,  91,  74,  69, 235,  30, 125, 118, 118, 150, 175,  75,  53
+LVS,       1.6, 1.3, 1.4, 1.6, 1.5, 1.2, 1.2, 4.6, 0.6, 2.8, 2.4, 2.4, 3.3, 3.7, 1.6, 1.0
+LVSstress, 1.6, 1.4, 1.6, 1.8, 1.7, 1.4, 1.3, 4.4, 0.6, 2.3, 2.2, 2.2, 2.8, 3.2, 1.4, 1.0
+***                                                                                      
