@@ -36,6 +36,8 @@ public class CNGrowthStages extends GrowthStages {
         myLine.append("Reproductive Leaf 5 to Maturity (R6)    = " + ROW13_Choice + "\n");
         myLine.append("Reproductive Leaf 6 to Harvest Ready    = " + ROW14_Choice + "\n");
         myLine.append("ROW15                                   = " + ROW15_Choice + "\n");
+        myLine.append("ROW16                                   = " + ROW16_Choice + "\n");
+                
         return myLine.toString();
     }
 

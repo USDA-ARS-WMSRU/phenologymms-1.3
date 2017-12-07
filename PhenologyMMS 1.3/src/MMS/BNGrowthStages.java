@@ -39,6 +39,8 @@ public class BNGrowthStages extends GrowthStages {
         myLine.append("R6 to Physiological Maturity (R7) = " + ROW13_Choice + "\n");
         myLine.append("R7 to Harvest Ready (R8)          = " + ROW14_Choice + "\n");
         myLine.append("ROW15                             = " + ROW15_Choice + "\n");
+        myLine.append("ROW16                             = " + ROW16_Choice + "\n");
+                
         return myLine.toString();
     }
 

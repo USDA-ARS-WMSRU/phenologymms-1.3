@@ -36,7 +36,8 @@ public class SFGrowthStages extends GrowthStages {
         myLine.append("R8 to Maturity (R9)               = " + ROW13_Choice + "\n");
         myLine.append("R9 to Harvest Ready               = " + ROW14_Choice + "\n");
         myLine.append("ROW15                             = " + ROW15_Choice + "\n");
-
+        myLine.append("ROW16                             = " + ROW16_Choice + "\n");
+        
         return myLine.toString();
     }
 

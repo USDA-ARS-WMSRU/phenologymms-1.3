@@ -41,7 +41,8 @@ public class SWGrowthStages extends GrowthStages {
         myLine.append("ROW13                              = " + ROW13_Choice + "\n");
         myLine.append("ROW14                              = " + ROW14_Choice + "\n");
         myLine.append("ROW15                              = " + ROW15_Choice + "\n");
-
+        myLine.append("ROW16                              = " + ROW16_Choice + "\n");
+        
         return myLine.toString();
     }
 

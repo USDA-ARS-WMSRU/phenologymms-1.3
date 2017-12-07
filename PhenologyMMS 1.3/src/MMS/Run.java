@@ -79,6 +79,17 @@ public class Run {
                 System.out.println("Can't open canopyht file: " + ex);
                 ex.printStackTrace();
             }
+ 
+//de added reading in of photoperiod parameters 11/17        
+//        try {
+//           getPhotoData(); // call method to read photoperiod parameter file
+//            }
+//            catch (Exception ex)
+//            {
+//                System.out.println("Can't open photo file: " + ex);
+//                ex.printStackTrace();
+//           }
+        
 //         try { //de added to fill latitude based on the climate location
 //           getLatitudeData(myParameters.location); // call method to read 
 //                                                          // latitude data file
@@ -345,6 +356,60 @@ public class Run {
 
      } // end of method getCanopyHtData
 
+     
+//          private void getPhotoData() throws IOException {
+////    get photoperiod data based on crop Variety. Currently, only soybean is
+////    implemented
+//        File[] myVarFiles;
+//        File myFile;
+//        BufferedReader input = null;
+//
+//        String varDir = "\\PhotoTypes";
+//        String fileLine;
+//        String path = getAppPath();
+//        //debe changed extensions to .dat
+//        //GiveFiles varFiles = new GiveFiles(path, varDir, "txt");
+//        GiveFiles varFiles = new GiveFiles(path, varDir, "dat");
+//
+//        myVarFiles = varFiles.getFiles();
+//        for (int i = 0; i < myVarFiles.length; i++) {
+//            if (myVarFiles[i].getName().equalsIgnoreCase("syphoto.dat")) {
+//                myFile = myVarFiles[i];
+//                try {
+//                    input = new BufferedReader(new FileReader(myFile));
+//                } catch (IOException ex) {
+//                    System.out.println("Can't open soybean photoperiod file: " + ex);
+//                    ex.printStackTrace();
+//                }
+////             **************** step through header stuff
+//                do {
+//                    fileLine = input.readLine();
+//                } while (!fileLine.equalsIgnoreCase("****"));
+////             **************** end of header stuff
+//
+//                do { //get the chosen variety name for soybean
+//                    fileLine = input.readLine();
+//                } while (!fileLine.equalsIgnoreCase(myParameters.varietyType));
+//
+//                  //  for (int r = 0; r < 6; r++){
+//                       fileLine = input.readLine();//read the next line
+//
+//                       StringTokenizer chew = new StringTokenizer(fileLine, ",");                 
+//         //     System.out.println("vernalizArray[r] = " + myParameters.vernalizArray[r]);
+//                        myParameters.mg =
+//                                chew.nextToken().trim();
+//                        myParameters.photocrit =
+//                                chew.nextToken().trim();
+//                        myParameters.ppsen =
+//                                chew.nextToken().trim();
+//                        myParameters.photosen =
+//                                chew.nextToken().trim();
+//            }// end of if loop to get the syphoto.dat file
+//        } // end of for loop to get the syphoto.dat file
+//
+//     } // end of method getPhotoData
+          
+          
 //   // Read in data value for latitude based on the chosen climate location
 //    // in the input screen.   
 //     private void getLatitudeData(String smp) throws IOException { 
@@ -467,7 +532,6 @@ public class Run {
             out.newLine();
 
             // write out array elements for vernalize parameters
-            //for(int m=0; m<6; m++){
                 out.write((myParameters.vernalDays).trim());
                 out.newLine();
                 out.write((myParameters.vernalTbase).trim());
@@ -480,11 +544,22 @@ public class Run {
                 out.newLine();
                 out.write((myParameters.vernalDevern).trim());
                 out.newLine();
-            //}
+            //write out the photoperiod parameters for soybeans 
+            
+            if (myParameters.mg.length()!=0){
+                out.write((myParameters.mg).trim());
+                out.newLine();               
+                out.write((myParameters.photocrit).trim());
+                out.newLine();               
+                out.write((myParameters.ppsen).trim());
+                out.newLine();               
+                out.write((myParameters.photosen).trim());
+                out.newLine();
+            }
+            
             //write out the maximum canopy height for phase 1 growth
                 out.write((myParameters.ecanht).trim());
                 out.newLine();  
-
             
            
             // Parse stages, discard label, write value to the file

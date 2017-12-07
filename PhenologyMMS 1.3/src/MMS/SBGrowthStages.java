@@ -39,7 +39,8 @@ public class SBGrowthStages extends GrowthStages {
         myLine.append("R6toHR                               = " + ROW13_Choice + "\n");
         myLine.append("ROW14                                = " + ROW14_Choice + "\n");
         myLine.append("ROW15                                = " + ROW15_Choice + "\n");
-
+        myLine.append("ROW16                                = " + ROW16_Choice + "\n");
+        
         return myLine.toString();
     }
 

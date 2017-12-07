@@ -14,6 +14,17 @@ package MMS;
  */
 
 public class SYGrowthStages extends GrowthStages {
+     // soybean variety name/maturity group 
+    public String mg;
+    
+  // critical photoperiod
+    public String photocrit;
+
+  // photoperiod sensitivity
+    public String ppsen;
+    
+  // sensitivity to photoperiod. Adjusts the critical photoperiod
+    public String photosen;
     /**
      *  Description of the Method
      *  We only need to override this method for each class so that the output

@@ -1760,6 +1760,12 @@ public class SYSetGDDFrame extends JFrame {
                             chew.nextToken().trim());
 //    ************************ OK now the whole class should be loaded!!
                     fileLine = input.readLine();
+                    String[] photo=fileLine.split(",");
+                    thisStage.mg=photo[1];
+                    thisStage.photocrit=photo[2];
+                    thisStage.ppsen=photo[3];
+                    thisStage.photosen=photo[4];
+                    fileLine = input.readLine();
                     fileLine = input.readLine();
                     allVarieties.add(thisStage);
                 }
@@ -2053,6 +2059,10 @@ public class SYSetGDDFrame extends JFrame {
         // save all changes in myParameters
         myParameters.varietyType = jCBVarietyType.getSelectedItem().toString();
         myParameters.setGrowthStages(tmpStage);
+        myParameters.mg=tmpStage.mg;
+        myParameters.photocrit=tmpStage.photocrit;
+        myParameters.ppsen=tmpStage.ppsen;
+        myParameters.photosen=tmpStage.photosen;
 //        pass parameters to output frame
         myOutputFrame.setParameters(myParameters);
     }

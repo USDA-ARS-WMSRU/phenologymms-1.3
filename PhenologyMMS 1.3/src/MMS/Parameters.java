@@ -128,7 +128,18 @@ public class Parameters {
     
   //phase 1 maximum canopy height
     public String ecanht;
+    
+  // soybean variety name/maturity group 
+    public String mg;
+    
+  // critical photoperiod
+    public String photocrit;
 
+  // photoperiod sensitivity
+    public String ppsen;
+    
+  // sensitivity to photoperiod. Adjusts the critical photoperiod
+    public String photosen;
     
 //    All of the following variables have the same definition as above.  
 //    The _ORG variables below are used in the resetWindow method to reset the 
@@ -173,6 +184,14 @@ public class Parameters {
     public String plantingDate_ORG;
 
    // public String vernalizArray_ORG;
+     
+    public String mg_ORG;
+   
+    public String photocrit_ORG;
+
+    public String ppsen_ORG;
+    
+    public String photosen_ORG;
 
 
     
@@ -199,6 +218,10 @@ public class Parameters {
         year_ORG = year = "2004";
         dayOfYear_ORG = dayOfYear = "259";
         canopyHt_ORG = canopyHt = "90.0";  
+        mg_ORG = mg= "";
+        photocrit_ORG = photocrit = "";
+        ppsen_ORG = ppsen = "";
+        photosen_ORG = photosen = "";
 
         myStages = new GrowthStages();
     } // end of constructor
