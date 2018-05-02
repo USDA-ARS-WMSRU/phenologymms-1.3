@@ -493,52 +493,74 @@ public class InputFrame extends JFrame {
         //String smLat = "";//temp variable for latitude read into fileLine
         //int compSmp;
               
-        String varDir = "\\LatitudeTypes";
+        String varDir = "\\MMSWeather";
         String fileLine;
         String path = getAppPath();
-        //debe changed file extensions to .dat
-        //GiveFiles varFiles = new GiveFiles(path, varDir, "txt");
-        GiveFiles varFiles = new GiveFiles(path, varDir, "dat");
-
-        myVarFiles = varFiles.getFiles();
-        for (int i = 0; i < myVarFiles.length; i++) {
-            if (myVarFiles[i].getName().equalsIgnoreCase("latitude.dat")) {
-                myFile = myVarFiles[i];
-                try {
-                    input = new BufferedReader(new FileReader(myFile));
-                } catch (IOException ex) {
-                    System.out.println("Can't open latitude file: " + ex);
-                    ex.printStackTrace();
+        File file = new File(path + varDir + "\\" + myParameters.location+".dat");
+        try {
+            BufferedReader br = new BufferedReader (new FileReader(file));
+            fileLine = br.readLine();
+            fileLine = br.readLine();
+            String[] tkn = fileLine.split(" ");
+            if(tkn.length>0){
+                if(tkn[0].contains("Latitude")){
+                    myParameters.latitude = tkn[0].split("=")[1];
+                } else {
+                    myParameters.latitude = "-99";
                 }
-//             **************** step through header stuff
-                do {
-                    fileLine = input.readLine();
-                } while (!fileLine.equalsIgnoreCase("****"));
-//             **************** end of header stuff 
-                
-                do { //get the chosen climate location
-                    fileLine = input.readLine();
-                } while (!fileLine.equalsIgnoreCase(myParameters.location));
-                           
-                    //for (int r = 0; r < 1; r++){
-                       fileLine = input.readLine();//read the next line
-                       StringTokenizer chew = new StringTokenizer(fileLine, ",");
-                         myParameters.latitude = chew.nextToken().trim();          
-                       
-//                       myParameters.latitude //[r] = 
-//                                chew.nextToken().trim();
-//                        myParameters.waterFilledLowerArray[r] = 
-//                                chew.nextToken().trim();
-//                        myParameters.waterFilledUpperArray[r] = 
-//                                chew.nextToken().trim();
-//                        myParameters.germGDDArray[r] = 
-//                                chew.nextToken().trim();
-//                        myParameters.elongRateGDDArray[r] = 
-//                                chew.nextToken().trim();
-                       // } // end of for
-            }// end of if loop to get the latitude.dat file  
-        } // end of for loop to get the latitude.dat file       
-    
+              
+            }
+            br.close();
+            
+        } catch(FileNotFoundException e){
+            
+        } catch(IOException e){
+            
+        }
+        
+//        //debe changed file extensions to .dat
+//        //GiveFiles varFiles = new GiveFiles(path, varDir, "txt");
+//        GiveFiles varFiles = new GiveFiles(path, varDir, "dat");
+//
+//        myVarFiles = varFiles.getFiles();
+//        for (int i = 0; i < myVarFiles.length; i++) {
+//            if (myVarFiles[i].getName().equalsIgnoreCase("latitude.dat")) {
+//                myFile = myVarFiles[i];
+//                try {
+//                    input = new BufferedReader(new FileReader(myFile));
+//                } catch (IOException ex) {
+//                    System.out.println("Can't open latitude file: " + ex);
+//                    ex.printStackTrace();
+//                }
+////             **************** step through header stuff
+//                do {
+//                    fileLine = input.readLine();
+//                } while (!fileLine.equalsIgnoreCase("****"));
+////             **************** end of header stuff 
+//                
+//                do { //get the chosen climate location
+//                    fileLine = input.readLine();
+//                } while (!fileLine.equalsIgnoreCase(myParameters.location));
+//                           
+//                    //for (int r = 0; r < 1; r++){
+//                       fileLine = input.readLine();//read the next line
+//                       StringTokenizer chew = new StringTokenizer(fileLine, ",");
+//                         myParameters.latitude = chew.nextToken().trim();          
+//                       
+////                       myParameters.latitude //[r] = 
+////                                chew.nextToken().trim();
+////                        myParameters.waterFilledLowerArray[r] = 
+////                                chew.nextToken().trim();
+////                        myParameters.waterFilledUpperArray[r] = 
+////                                chew.nextToken().trim();
+////                        myParameters.germGDDArray[r] = 
+////                                chew.nextToken().trim();
+////                        myParameters.elongRateGDDArray[r] = 
+////                                chew.nextToken().trim();
+//                       // } // end of for
+//            }// end of if loop to get the latitude.dat file  
+//        } // end of for loop to get the latitude.dat file       
+//    
      } // end of method getLatitudeData  
     
     
