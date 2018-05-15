@@ -1,0 +1,11 @@
+File Name: spring barley.dat	Date: 4/8/2009	11:12:55
+Path: D:\PhenologyMMS\Interface\Working\NetBeans_projects\saves\spring barley.dat
+
+The Format is as follows:
+Crop Type, Crop Variety, Climate, Planting Day, Planting Month, Planting Year, 
+Day of Year, Planting Depth,Planting Rate, Soil Moisture, Latitude, 
+GDD Method, Base Temperature, Lower Optimum Temperature, Upper Optimum Temperature, Upper Temperature, Phyllochron Value, Canopy Height
+Row1,Row2,Row3,..., RowN
+**** do not edit below this line !****
+Spring Barley, 8-Leaved, Akron_7706, 05, 04, 2004, 96, 4, 241, Optimum, 40.165, 1, 0, 18, 18, 40, 105.0, 90.0
+ GN 100,  GN 170,  GN 110,  GN 100,  GN 85,  GN 125,  GN 85,  GN 75,  GN 500,  GN 800,  GN 200,  GN  0.,  GN  0.,  GN  0.,  GN  0.

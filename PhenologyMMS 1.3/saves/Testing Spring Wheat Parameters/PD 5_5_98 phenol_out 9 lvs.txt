@@ -1,0 +1,83 @@
+File Name: PD 5_5_98 phenol_out 9 lvs.txt	This output created at: 10/19/2015	5:31:49
+Path: D:\PhenologyMMS 1.3 Working\Interface\Working\NetBeans_projects\saves\Testing Spring Wheat Parameters\PD 5_5_98 phenol_out 9 lvs.txt
+
+These are the inputs provided to execute PhenologyMMS:
+
+Crop:                                     Spring Wheat
+Variety:                                  9-Leaved
+Location/ Weather File:                   HortFarm_CO_8701
+Planting Date Month (mm):                 05
+Planting Date Day (dd):                   05
+Planting Date Year (yyyy):                1998
+Day of Year:                              125
+Planting Depth (cm):                      4
+Planting Rate (plants/m^2):               200
+Initial Soil Moisture Conditions:         Optimum
+Latitude (degrees):                       40.63
+GDD Method:                               1
+Base Temperature (C):                     0
+Lower Optimum Temperature (C):            18
+Upper Optimum Temperature (C):            22
+Upper/Maximum Temperature (C):            40
+Maximum Canopy Height (cm):               90.0
+Phyllochron Value:                        80.0
+--------------------------------------------------
+
+Seeding to Emergence               = GN 100
+Emergence to First Tiller          = GN 155
+Emergence to Single Ridge          = GN 260
+Single Ridge to Double Ridge       = GN 125
+Double Ridge to Terminal Spikelet  = GN 160
+Terminal Spikelet to Jointing      = GN 40
+Jointing to Flag Leaf Complete     = GN 135
+Flag Leaf Complete to Heading      = GN 140
+Heading to Anthesis Start          = GN 105
+Anthesis Start to Maturity         = GN 700
+Maturity to Harvest Ready          = GN 200
+ROW12                              = GN  0.
+ROW13                              = GN  0.
+ROW14                              = GN  0.
+ROW15                              = GN  0.
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+Path: D:\PhenologyMMS 1.3 Working\Interface\Working\NetBeans_projectsNOTE: If 999 is displayed in the output, the planting
+ date may be outside of the weather years in the selected
+ weather file. Also, the selected planting date might result
+ in a harvest date outside of the years in the
+ weather file.
+
+
+                                           Spring Wheat  
+                                           Leaf Number
+                                        DOY  Leaf Number
+                                       ------------------
+                                        142.0       1.0
+                                        148.0       2.1
+                                        153.0       3.2
+                                        160.0       4.0
+                                        166.0       5.1
+                                        171.0       6.0
+                                        176.0       7.2
+                                        180.0       8.2
+                                        183.0       9.0
+
+
+ Phenological Event       Day of Year  Date  DAP     DAE     DAV     GDD AP     GDD AE     GDD AV     NOLVS
+ Planting Date                   125   5/ 5    0       0       0          0          0          0         0
+ Emergence                       137   5/17   12       0       0      155.1          0          0         0
+ First tiller                    148   5/28   23      11       0      310.5      168.0          0       2.1
+ Single ridge                    154   6/ 3   29      17       0      402.9      260.4          0       3.3
+ Double ridge                    165   6/14   40      28       0      535.8      393.3          0       4.9
+ Floret primordia init begins    167   6/16   42      30       0      562.6      420.1          0       5.3
+ Stem elongation begins          175   6/24   50      38       0      699.5      557.0          0       7.0
+ Awn Initials Formed             175   6/24   50      38       0      699.5      557.0          0       7.0
+ Jointing                        177   6/26   52      40       0      739.9      597.4          0       7.5
+ Booting                         183   7/ 2   58      46       0      865.7      723.2          0       9.0
+ Heading                         190   7/ 9   65      53       0     1005.5      863.0          0       9.0
+ Anthesis starts                 195   7/14   70      58       0     1115.2      972.7          0       9.0
+ Anthesis ends                   201   7/20   76      64       0     1247.6     1105.1          0       9.0
+ Physiological maturity          230   8/18  105      93       0     1827.7     1685.2          0       9.0
+ Harvest ready                   239   8/27  114     102       0     2013.5     1871.0          0       9.0
+ Canopy Height (cm)               88
+

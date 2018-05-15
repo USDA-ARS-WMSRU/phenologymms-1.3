@@ -1,0 +1,11 @@
+File Name: ww generic GN Akron 9-15-2010 3cm medium.dat	Date: 5/31/2013	3:42:59
+Path: C:\PhenologyMMS13\saves\Emergence Verification April 2013\Winter Wheat\ww generic GN Akron 9-15-2010 3cm medium.dat
+
+The Format is as follows:
+Crop Type, Crop Variety, Climate, Planting Day, Planting Month, Planting Year, 
+Day of Year, Planting Depth,Planting Rate, Soil Moisture, Latitude, 
+GDD Method, Base Temperature, Lower Optimum Temperature, Upper Optimum Temperature, Upper Temperature, Phyllochron Value, Canopy Height
+Row1,Row2,Row3,..., RowN
+**** do not edit below this line !****
+Winter Wheat, Generic, Akron_CO_1812, 15, 09, 2010, 258, 3, 133, Medium, 40.165, 1, 0, 18, 22, 40, 105.0, 90.0
+ GN 100,  GN 200,  GN 180,  GN 125,  GN 150,  GN 30,  GN 160,  GN 145,  GN 145,  GN 735,  GN 200,  GN  0.,  GN  0.,  GN  0.,  GN  0.

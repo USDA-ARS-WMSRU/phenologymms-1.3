@@ -11,6 +11,7 @@ nbdist/
 
 # End of https://www.gitignore.io/api/netbeans
 
+results/phenol.out
 Testing\ Output/
 
 *.exe
