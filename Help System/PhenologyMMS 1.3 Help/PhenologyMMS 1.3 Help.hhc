@@ -117,6 +117,12 @@
 		</item>
 		<item name="Winter Wheat Growth Stages" link="Growth_Stages\Winter_Wheat_Growth_Stages.htm">
 		</item>
+		<item name="Soybean Diagrams">
+			<item name="Soybean Diagrams" link="Soybean_Diagrams.htm">
+			</item>
+			<item name="Phenology_Diagram" link="Soybean_Diagrams.htm">
+			</item>
+		</item>
 	</item>
 	<item name="Output">
 		<item name="Output" link="Output\Output.htm">
