@@ -77,6 +77,14 @@
 		</item>
 		<item name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
 		</item>
+		<item name="Soybean Diagrams" link="Growth Stages\Soybean_Diagrams">
+			<item name="Phenology_Diagram" link="Growth_Stages\Soybean_Diagrams.htm">
+			</item>
+			<item name="Developmental_Sequence" link="Growth_Stages\Soybean_Diagrams.htm">
+			</item>
+		</item>
+		<item name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</item>
 		<item name="Spring Barley Diagrams" link="Growth_Stages\Spring_Barley_Diagrams.htm">
 			<item name="Phenology_Diagram" link="Growth_Stages\Spring_Barley_Diagrams.htm#Phenology_Diagram">
 			</item>
@@ -116,12 +124,6 @@
 			</item>
 		</item>
 		<item name="Winter Wheat Growth Stages" link="Growth_Stages\Winter_Wheat_Growth_Stages.htm">
-		</item>
-		<item name="Soybean Diagrams">
-			<item name="Soybean Diagrams" link="Soybean_Diagrams.htm">
-			</item>
-			<item name="Phenology_Diagram" link="Soybean_Diagrams.htm">
-			</item>
 		</item>
 	</item>
 	<item name="Output">

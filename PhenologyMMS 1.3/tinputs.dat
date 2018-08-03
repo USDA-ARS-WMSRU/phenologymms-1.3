@@ -1,9 +1,9 @@
 Winter Wheat
 Generic
-CO_Akron.dat
+CO_Greeley_LIRF_9217.dat
 09
 15
-2004
+2008
 259
 5
 133
@@ -28,7 +28,7 @@ Planted in dust
 25.0
 700.0
 0.0
-40.165
+40.4487
 1
 0
 18
@@ -42,6 +42,10 @@ Planted in dust
 10.0
 15.0
 30.0
+3.5
+13.40
+0.285
+0.324
 8.0
 GN 100
 GN 200

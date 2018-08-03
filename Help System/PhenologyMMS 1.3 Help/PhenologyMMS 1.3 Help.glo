@@ -173,6 +173,10 @@
 		<glossdef>One of the reproductive stages in grain crops. A dent appears near the crown of the kernels as they are losing moisture. This is growth stage R5 in Corn.</glossdef>
 	</glossentry>
 	<glossentry>
+		<glossterm>Determinate</glossterm>
+		<glossdef>A growth habit where vegetative growth is completed by the time flowering begins.</glossdef>
+	</glossentry>
+	<glossentry>
 		<glossterm>Development</glossterm>
 		<glossdef>The process whereby the  organism transforms into a different stage.</glossdef>
 	</glossentry>
@@ -513,6 +517,10 @@
 		<glossdef>Abbreviation for 'Internode Elongation Starts' growth stage. The spaces between the nodes i.e., internodes, begin to increase the distance between the nodes and the stem grows longer.</glossdef>
 	</glossentry>
 	<glossentry>
+		<glossterm>Indeterminate</glossterm>
+		<glossdef>A growth habit where vegetative growth continues after flowering begins.</glossdef>
+	</glossentry>
+	<glossentry>
 		<glossterm>Inflorescence</glossterm>
 		<glossdef>A flower cluster.</glossdef>
 	</glossentry>
@@ -622,7 +630,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Main Stem</glossterm>
-		<glossdef>The initial stem from the crown in grasses. All other stems are tillers and most arise from the main stem.</glossdef>
+		<glossdef>The initial stem from the crown in grasses. All other stems are tillers and most arise from the main stem. In other plants, the main stem is the initial, primary stem.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Male Flower</glossterm>
@@ -635,6 +643,10 @@
 	<glossentry>
 		<glossterm>Maturity Class</glossterm>
 		<glossdef>Different crops determine maturity classes differently. Corn maturity classes are based on the Days to Maturity and given as 90, 95, up to 120 days. However, this has more to do with the amount of time a hybrid takes to lose grain moisture in the field compared to a standard hybrid and less to do with actual calendar days to maturity.   Dry Beans maturity classes are an estimate of how many days it will take to go from planting to vine cutting.   Winter Wheat maturity classes are an estimate of time to Heading.   Spring Barley is considered to be physiologically mature when the grain moisture content is between 30 -40 %. No more dry matter will be accumulated at this point.  Foxtail and Proso millet maturity classes are given in terms of days to maturity.  Sorghum time to maturity or maturity classes are based on the accumulation of GDD's.   The Sunflower is determined to be mature when a major portion of the back of the sunflower head is turning brown.</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Maturity Group</glossterm>
+		<glossdef>In soybean, the maturity classification of a variety depends on its adaptability to effectively utilize the growing season, i.e., the photoperiod and temperature in a given region. The different regions are east to west belts and are rather narrow from north to south. The Maturity Group classifications range from 00 in the northern regions to VIII in the southern regions of the United States. There are ten divisions within each maturity group, as well, e.g., 3.0 to 3.9.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Maximum Temperature</glossterm>
@@ -827,6 +839,10 @@
 	<glossentry>
 		<glossterm>Primary Leaves</glossterm>
 		<glossdef>Unifoliate leaves. At the 'VC' stage in Dry Beans, there are two primary or unifoliate leaves unfolded at node 2.</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Primary Root</glossterm>
+		<glossdef>The radical root. It is the first structure to grow from the seed in germination.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Primary Tiller</glossterm>

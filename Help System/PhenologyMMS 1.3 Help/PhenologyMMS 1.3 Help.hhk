@@ -75,6 +75,8 @@
 		</section>
 		<section name="Set Inputs" link="Setup\Set_Inputs.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Seeding">
 			<section name="Hay Millet Growth Stages" link="Growth_Stages\Hay_Millet_Growth_Stages.htm">
 			</section>
@@ -110,6 +112,8 @@
 		<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 		</section>
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Weight">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
@@ -169,6 +173,8 @@
 		</section>
 		<section name="Winter Wheat Growth Stages" link="Growth_Stages\Winter_Wheat_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Elongation">
 		<section name="Emergence in PhenologyMMS 1.3" link="Setup\Emergence.htm">
@@ -205,9 +211,13 @@
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Medium Maturity">
 		<section name="Growth Stages Example" link="Growth_Stages\Growth_Stages_Example.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Growing Degree Days">
@@ -246,6 +256,8 @@
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Winter Wheat">
@@ -353,6 +365,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Structure">
 		<section name="Weather/Location Files" link="Setup\Weather_Location_Files.htm">
@@ -434,6 +448,8 @@
 		<section name="Output" link="Output\Output.htm">
 		</section>
 		<section name="Set Inputs" link="Setup\Set_Inputs.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Solar Rad">
@@ -571,6 +587,8 @@
 		</section>
 		<section name="Corn Diagrams" link="Growth_Stages\Corn_Diagrams.htm">
 		</section>
+		<section name="Soybean Diagrams" link="Growth_Stages\Soybean_Diagrams.htm">
+		</section>
 	</item>
 	<item name="Phenology Diagram">
 		<section name="Winter Barley Diagrams" link="Growth_Stages\Winter_Barley_Diagrams.htm">
@@ -592,6 +610,8 @@
 		<section name="Sorghum Diagrams" link="Growth_Stages\Sorghum_Diagrams.htm">
 		</section>
 		<section name="Spring Wheat Diagrams" link="Growth_Stages\Spring_Wheat_Diagrams.htm">
+		</section>
+		<section name="Soybean Diagrams" link="Growth_Stages\Soybean_Diagrams.htm">
 		</section>
 	</item>
 	<item name="Maturity">
@@ -616,6 +636,8 @@
 		<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 		</section>
 		<section name="References and Documents" link="References_and_Documents\References_and_Documents.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="AS">
 			<section name="Hay Millet Growth Stages" link="Growth_Stages\Hay_Millet_Growth_Stages.htm">
@@ -893,6 +915,8 @@
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="First Tiller">
 		<section name="Hay Millet Growth Stages" link="Growth_Stages\Hay_Millet_Growth_Stages.htm">
@@ -1073,6 +1097,8 @@
 		</section>
 		<section name="Winter Wheat Growth Stages" link="Growth_Stages\Winter_Wheat_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="R6">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1101,6 +1127,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Dent">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1121,6 +1149,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Milk">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1140,6 +1170,8 @@
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Ear Initiation">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
@@ -1173,6 +1205,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Dough">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1201,6 +1235,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Blister">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1218,6 +1254,8 @@
 		<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 		</section>
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Tasseling">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
@@ -1238,6 +1276,8 @@
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Harvest Ready">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
@@ -1270,6 +1310,8 @@
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="12">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
@@ -1349,6 +1391,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Physiological Maturity R6">
 			<section name="Corn Growth Stages" link="Growth_Stages\Corn_Growth_Stages.htm">
 			</section>
@@ -1424,6 +1468,8 @@
 		<section name="Overview of PhenologyMMS 1.3" link="Overview\Overview_of_PhenologyMMS_1.3.htm">
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Dent">
@@ -1569,6 +1615,8 @@
 		</section>
 		<section name="Output" link="Output\Output.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="LS">
 		<section name="Begin Setup" link="Setup\Begin_Setup.htm">
@@ -1698,6 +1746,8 @@
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Drop down">
@@ -1883,6 +1933,8 @@
 	<item name="Full Bloom">
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="HB">
 			<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
 			</section>
@@ -2023,6 +2075,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="R3">
 			<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 			</section>
@@ -2079,6 +2133,8 @@
 	<item name="V8">
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="12th Leaf">
 			<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 			</section>
@@ -2095,6 +2151,8 @@
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="Maturity">
 			<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 			</section>
@@ -2104,6 +2162,8 @@
 		<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Flower Brown">
 			<section name="Sunflower Growth Stages" link="Growth_Stages\Sunflower_Growth_Stages.htm">
@@ -2148,6 +2208,8 @@
 		<section name="Output" link="Output\Output.htm">
 		</section>
 		<section name="Launch PhenologyMMS 1.3" link="Overview\Launch_PhenologyMMS_1.3.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="999">
 			<section name="Output" link="Output\Output.htm">
@@ -2239,6 +2301,8 @@
 		</section>
 		<section name="Corn Diagrams" link="Growth_Stages\Corn_Diagrams.htm">
 		</section>
+		<section name="Soybean Diagrams" link="Growth_Stages\Soybean_Diagrams.htm">
+		</section>
 	</item>
 	<item name="GDD AP">
 		<section name="Output" link="Output\Output.htm">
@@ -2269,6 +2333,8 @@
 	<item name="V1">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="2nd Trifoliate Leaf">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 			</section>
@@ -2289,6 +2355,8 @@
 	<item name="VC">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="1st Trifoliate Leaf">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 			</section>
@@ -2300,6 +2368,8 @@
 	</item>
 	<item name="3rd Trifoliate Leaf">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V2">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2321,6 +2391,8 @@
 	<item name="4th Trifoliate Leaf">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="V3">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 			</section>
@@ -2328,6 +2400,8 @@
 	</item>
 	<item name="V3">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="4th Trifoliate Leaf">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2337,6 +2411,8 @@
 	<item name="2nd Trifoliate Leaf">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 		<item name="V1">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 			</section>
@@ -2344,6 +2420,8 @@
 	</item>
 	<item name="V2">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="3rd Trifoliate Leaf">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2365,6 +2443,8 @@
 	<item name="Cotyledonary Leaves">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Mid Seed Fill">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2376,6 +2456,8 @@
 	</item>
 	<item name="1st Trifoliate Leaf">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="VC">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2394,6 +2476,8 @@
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
 		<section name="Sorghum Growth Stages" link="Growth_Stages\Sorghum_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V4">
 			<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -2449,6 +2533,8 @@
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Latitude">
 		<section name="Set Inputs" link="Setup\Set_Inputs.htm">
@@ -2482,6 +2568,8 @@
 		<section name="Overview of PhenologyMMS 1.3" link="Overview\Overview_of_PhenologyMMS_1.3.htm">
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Date">
@@ -2747,6 +2835,8 @@
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Growing Degree">
 		<section name="Temperatures" link="Temperatures\Temperatures.htm">
@@ -2798,6 +2888,8 @@
 		<section name="Temperatures" link="Temperatures\Temperatures.htm">
 		</section>
 		<section name="Growth Stages Example" link="Growth_Stages\Growth_Stages_Example.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Tavg">
 			<section name="Temperatures" link="Temperatures\Temperatures.htm">
@@ -3092,6 +3184,8 @@
 		<section name="Overview of PhenologyMMS 1.3" link="Overview\Overview_of_PhenologyMMS_1.3.htm">
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Colorado State University">
@@ -3481,6 +3575,8 @@
 		</section>
 		<section name="Hay Millet Growth Stages" link="Growth_Stages\Hay_Millet_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Years">
 		<section name="Weather/Location Files" link="Setup\Weather_Location_Files.htm">
@@ -3521,6 +3617,8 @@
 		</section>
 		<section name="Growth Stages Example" link="Growth_Stages\Growth_Stages_Example.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Late Maturity">
 		<section name="Hay Millet Growth Stages" link="Growth_Stages\Hay_Millet_Growth_Stages.htm">
@@ -3537,6 +3635,8 @@
 		</section>
 		<section name="Growth Stages Example" link="Growth_Stages\Growth_Stages_Example.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Spring Barley Diagrams">
 		<section name="Spring Barley Diagrams" link="Growth_Stages\Spring_Barley_Diagrams.htm">
@@ -3544,6 +3644,8 @@
 	</item>
 	<item name="Back Button">
 		<section name="Winter Barley Growth Stages" link="Growth_Stages\Winter_Barley_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Hordeum vulgare">
@@ -3563,9 +3665,13 @@
 		</section>
 		<section name="Spring Barley Growth Stages" link="Growth_Stages\Spring_Barley_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Late">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Phaseolus vulgaris">
@@ -3589,6 +3695,8 @@
 	<item name="VN">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
 		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
 	</item>
 	<item name="Bush">
 		<section name="Dry Beans Growth Stages" link="Growth_Stages\Dry_Bean_Growth_Stages.htm">
@@ -3600,6 +3708,8 @@
 		<section name="Output" link="Output\Output.htm">
 		</section>
 		<section name="Save Current Scenario" link="Output\Save_Current_Scenario.htm">
+		</section>
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Seed sunflowers">
@@ -4056,6 +4166,114 @@
 	</item>
 	<item name="Spring Wheat Diagrams">
 		<section name="Spring Wheat Diagrams" link="Growth_Stages\Spring_Wheat_Diagrams.htm">
+		</section>
+	</item>
+	<item name="Soybean Diagrams">
+		<section name="Soybean Diagrams" link="Growth_Stages\Soybean_Diagrams.htm">
+		</section>
+	</item>
+	<item name="V16">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Full Seed">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Beginning Seed">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V17">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V7">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V15">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Trifoliate leaves">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Full Maturity">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V5">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V23">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V13">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V10">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Beginning Pod">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="VE">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V11">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Trifoliate">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V20">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="MG 000.5">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+		<item name="MG 10.5">
+			<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Reproductive Stages">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="5th Trifoliate Leaf">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Soybean">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Full Pod">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="V25">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Beginning Maturity">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
+		</section>
+	</item>
+	<item name="Maturity Group">
+		<section name="Soybean Growth Stages" link="Growth_Stages\Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 </index>
