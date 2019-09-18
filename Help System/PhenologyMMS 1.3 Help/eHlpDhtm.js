@@ -9,7 +9,7 @@
 /// Section Begin - General and relative topics(JavaScript 1.0)
 
 //{{HH_SYMBOL_SECTION
-var HH_ChmFilename = "D:\\PhenologyMMS 1.3 Working\\Help System\\PhenologyMMS 1.3 Help\\PhenologyMMS 1.3 Help.chm";
+var HH_ChmFilename = "D:\\PhenologyMMS-1.3\\Help System\\PhenologyMMS 1.3 Help\\PhenologyMMS 1.3 Help.chm";
 var HH_WindowName = "";
 var HH_GlossaryFont = "";
 var HH_Glossary = "";
