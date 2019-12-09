@@ -1,0 +1,78 @@
+This file contains all corn cultivars used by Phenology MMS. the format is
+      as follows:
+
+*** 
+<Variety name>
+GDD,<StoE>,<EtoV4>,<V4toTassleInitiation>,<V4toEar>,<V4toInternodeElong>,<V4toV12>,<V12toTasseling>,<V12toSilk>,<R1toBlister>,<R2toMilk>,<R3toDough>,<R4toDent>,<R5toM>,<R6toHR>
+GDDstress,<StoE>,<EtoV4>,<V4toTassleInitiation>,<V4toEar>,<V4toInternodeElong>,<V4toV12>,<V12toTasseling>,<V12toSilk>,<R1toBlister>,<R2toMilk>,<R3toDough>,<R4toDent>,<R5toM>,<R6toHR>
+LVS,<StoE>,<EtoV4>,<V4toTassleInitiation>,<V4toEar>,<V4toInternodeElong>,<V4toV12>,<V12toTasseling>,<V12toSilk>,<R1toBlister>,<R2toMilk>,<R3toDough>,<R4toDent>,<R5toM>,<R6toHR>
+LVSstress,<StoE>,<EtoV4>,<V4toTassleInitiation>,<V4toEar>,<V4toInternodeElong>,<V4toV12>,<V12toTasseling>,<V12toSilk>,<R1toBlister>,<R2toMilk>,<R3toDough>,<R4toDent>,<R5toM>,<R6toHR>
+THREE ***  THE DATA BEGINS BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 3 asterisks (***), which separates
+each variety.
+
+The line following the 3 asterisks line gives the variety name.
+
+The next four lines give either the unstressed growing degree-days (first line), stressed
+growing degree-days (second line), unstressed number of leaves (third line), or stressed
+number of leaves (fourth line) for each of the intervals.
+
+Each variety is separated by three asterisks.
+
+
+***
+Generic 110-Day
+GDD,        25, 140,  70,  75,  80, 280, 350,  350, 165, 110,  80, 165, 200, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 400,  450, 149,  99,  72, 140, 150,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 10.0, 10.0, 4.7, 3.1, 2.3, 4.7, 5.7, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 11.4, 12.9, 4.3, 2.8, 2.1, 4.0, 4.3, 2.3
+***
+90-Day
+GDD,        25, 140,  70,  75,  80, 280, 210,  210, 133, 89,  64, 133, 161, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 240,  290, 120, 80,  58, 113, 121,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 6.0,  6.0, 3.8, 2.5, 1.8, 3.8, 4.6, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 6.9,  8.3, 3.4, 2.3, 1.7, 3.2, 3.5, 2.3
+***
+95-Day
+GDD,        25, 140,  70,  75,  80, 280, 245,  245, 141, 94,  68, 141, 171, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 280,  330, 127, 85,  62, 120, 128,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 7.0, 7.0, 4.0, 2.7, 1.9, 4.0, 4.9, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 8.0, 9.4, 3.6, 2.4, 1.8, 3.5, 3.7, 2.3
+***
+100-Day
+GDD,        25, 140,  70,  75,  80, 280, 280,  280, 149, 99,  72, 149, 181, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 320,  370, 134, 89,  65, 127, 135,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 8.0, 8.0,  4.3, 2.8, 2.1, 4.3, 5.2, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 9.1, 10.6, 3.8, 2.5, 1.9, 3.6, 3.9, 2.3
+***
+105-Day
+GDD,        25, 140,  70,  75,  80, 280, 315,  315, 157, 105,  76, 157, 190, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 360,  410, 141,  94,  69, 133, 143,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 9.0,  9.0, 4.5, 3.0, 2.2, 4.5, 5.4, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 10.3, 11.7, 4.0, 2.7, 2.0, 3.8, 4.1, 2.3
+***
+110-Day
+GDD,        25, 140,  70,  75,  80, 280, 350,  350, 165, 110,  80, 165, 200, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 400,  450, 149,  99,  72, 140, 150,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 10.0, 10.0, 4.7, 3.1, 2.3, 4.7, 5.7, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 11.4, 12.9, 4.3, 2.8, 2.1, 4.0, 4.3, 2.3
+***
+115-Day
+GDD,        25, 140,  70,  75,  80, 280, 385,  385, 173, 115,  84, 173, 210, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 440,  490, 156, 104,  76, 147, 157,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 11.0, 11.0, 4.9, 3.3, 2.4, 4.9, 6.0, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 12.6, 14.0, 4.5, 3.0, 2.2, 4.2, 4.5, 2.3
+***
+120-Day
+GDD,        25, 140,  70,  75,  80, 280, 420,  420, 181, 121,  88, 181, 219, 100  
+GDDstress,  55, 140,  70,  75,  80, 280, 480,  530, 163, 109,  79, 154, 165,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 8.0, 12.0, 12.0, 5.2, 3.5, 2.5, 5.2, 6.3, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 13.7, 15.1, 4.7, 3.1, 2.3, 4.4, 4.7, 2.3
+***
+IWOP 100-Day Garst 8827 Hybrid
+GDD,        25, 140,  70,  75,  80, 270, 270,  280, 149, 99,  72, 149, 181, 100
+GDDstress,  55, 140,  70,  75,  80, 280, 320,  370, 134, 89,  65, 127, 135,  80
+LVS,       0.7, 4.0, 2.0, 2.1, 2.3, 7.7, 7.7, 8.0,  4.3, 2.8, 2.1, 4.3, 5.2, 2.9
+LVSstress, 1.6, 4.0, 2.0, 2.1, 2.3, 8.0, 9.1, 10.6, 3.8, 2.5, 1.9, 3.6, 3.9, 2.3

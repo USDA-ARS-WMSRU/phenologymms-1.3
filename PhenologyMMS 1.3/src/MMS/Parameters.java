@@ -41,8 +41,8 @@ public class Parameters {
     public String latitude;
 
 //      The number of the method being used to calculate GDD. Currently, method 2
-//      should be selected for corn, sorghum and sunflower and all other crops 
-//      should select method 1.
+//      should be selected for corn, sorghum, dry bean, soybean and sunflower 
+//      and all other crops should select method 1.
     public String GDDMethod;
     
     // de added temperatures and canopy height

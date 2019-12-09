@@ -1102,6 +1102,10 @@ public class SYSetGDDFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
+		if(RoboHelp.openHelpPage("Growth_Stages/Soybean_Growth_Stages.htm")) {
+			return;
+		}
+		
         if (helpOn == true) {
             myHelpFrame.setVisible(true);
             helpOn = false;
@@ -1569,7 +1573,7 @@ public class SYSetGDDFrame extends JFrame {
         jTFNumber31.setText(myGrowthStates.ROW15_stress);
         jTFNumber47.setText(myGrowthStates.ROW15_LVS);
         jTFNumber63.setText(myGrowthStates.ROW15_LVS_stress);
-//        set ROW15 Radio button
+//        set ROW15 Radio button 
         e1 = Row15Group.getElements();
         myCode = this.getAcode(myGrowthStates.ROW15_Choice.substring(0, 2));
         myValue = myGrowthStates.ROW15_Choice.trim().substring(2);
@@ -1590,12 +1594,17 @@ public class SYSetGDDFrame extends JFrame {
         }
 
         //   *************** ROW16
-        jTFNumber16.setText(myGrowthStates.ROW15);
-        jTFNumber32.setText(myGrowthStates.ROW15_stress);
-        jTFNumber48.setText(myGrowthStates.ROW15_LVS);
-        jTFNumber64.setText(myGrowthStates.ROW15_LVS_stress);
+//        jTFNumber16.setText(myGrowthStates.ROW15); //DE Row 15 was used again by mistake.
+//        jTFNumber32.setText(myGrowthStates.ROW15_stress);
+//        jTFNumber48.setText(myGrowthStates.ROW15_LVS);
+//        jTFNumber64.setText(myGrowthStates.ROW15_LVS_stress);
+        jTFNumber16.setText(myGrowthStates.ROW16);
+        jTFNumber32.setText(myGrowthStates.ROW16_stress);
+        jTFNumber48.setText(myGrowthStates.ROW16_LVS);
+        jTFNumber64.setText(myGrowthStates.ROW16_LVS_stress);
 //        set ROW16 Radio button
-        e1 = Row15Group.getElements();
+//        e1 = Row15Group.getElements();//DE Row 15 was used again by mistake.
+        e1 = Row16Group.getElements();
         myCode = this.getAcode(myGrowthStates.ROW16_Choice.substring(0, 2));
         myValue = myGrowthStates.ROW16_Choice.trim().substring(2);
         while (e1.hasMoreElements()) {
@@ -1933,10 +1942,15 @@ public class SYSetGDDFrame extends JFrame {
         jTFNumber47.setText(tmpStage.ROW15_LVS_ORG);
         jTFNumber63.setText(tmpStage.ROW15_LVS_stress_ORG);
 
-        jTFNumber16.setText(tmpStage.ROW15_ORG);
-        jTFNumber32.setText(tmpStage.ROW15_stress_ORG);
-        jTFNumber48.setText(tmpStage.ROW15_LVS_ORG);
-        jTFNumber64.setText(tmpStage.ROW15_LVS_stress_ORG);
+        //DE Row 15 was used again by mistake.
+//        jTFNumber16.setText(tmpStage.ROW15_ORG);
+//        jTFNumber32.setText(tmpStage.ROW15_stress_ORG);
+//        jTFNumber48.setText(tmpStage.ROW15_LVS_ORG);
+//        jTFNumber64.setText(tmpStage.ROW15_LVS_stress_ORG);
+        jTFNumber16.setText(tmpStage.ROW16_ORG);
+        jTFNumber32.setText(tmpStage.ROW16_stress_ORG);
+        jTFNumber48.setText(tmpStage.ROW16_LVS_ORG);
+        jTFNumber64.setText(tmpStage.ROW16_LVS_stress_ORG);
         
         
         myParameters.setGrowthStages(tmpStage);
@@ -2032,10 +2046,14 @@ public class SYSetGDDFrame extends JFrame {
         tmpStage.ROW15_LVS = jTFNumber47.getText().trim();
         tmpStage.ROW15_LVS_stress = jTFNumber63.getText().trim();
 
-        tmpStage.ROW15 = jTFNumber16.getText().trim();
-        tmpStage.ROW15_stress = jTFNumber32.getText().trim();
-        tmpStage.ROW15_LVS = jTFNumber48.getText().trim();
-        tmpStage.ROW15_LVS_stress = jTFNumber64.getText().trim();
+//        tmpStage.ROW15 = jTFNumber16.getText().trim(); //DE Row 15 was used again by mistake.
+//        tmpStage.ROW15_stress = jTFNumber32.getText().trim();
+//        tmpStage.ROW15_LVS = jTFNumber48.getText().trim();
+//        tmpStage.ROW15_LVS_stress = jTFNumber64.getText().trim();
+        tmpStage.ROW16 = jTFNumber16.getText().trim();
+        tmpStage.ROW16_stress = jTFNumber32.getText().trim();
+        tmpStage.ROW16_LVS = jTFNumber48.getText().trim();
+        tmpStage.ROW16_LVS_stress = jTFNumber64.getText().trim();
         
         
 // ************** get selected values ***********************

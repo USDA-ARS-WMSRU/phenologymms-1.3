@@ -743,6 +743,7 @@ public class GrowthStages {
             default:
                 ROW15_Choice = "GN  " + ROW15;
                 break;
+                
         }
 
     }
@@ -756,16 +757,20 @@ public class GrowthStages {
     public void setROW16_choice(int choice) {
         switch (choice) {
             case 2:
-                ROW16_Choice = "GS " + ROW15_stress;
+                //ROW16_Choice = "GS " + ROW15_stress; DE Row 15 was used by mistake
+                ROW16_Choice = "GS " + ROW16_stress;
                 break;
             case 3:
-                ROW16_Choice = "LN " + ROW15_LVS;
+                //ROW16_Choice = "LN " + ROW15_LVS;
+                ROW16_Choice = "LN " + ROW16_LVS;
                 break;
             case 4:
-                ROW16_Choice = "LS " + ROW15_LVS_stress;
+                //ROW16_Choice = "LS " + ROW15_LVS_stress;
+                ROW16_Choice = "LS " + ROW16_LVS_stress;
                 break;
             default:
-                ROW16_Choice = "GN  " + ROW15;
+                //ROW16_Choice = "GN  " + ROW15;
+                ROW16_Choice = "GN  " + ROW16;
                 break;
         }
 

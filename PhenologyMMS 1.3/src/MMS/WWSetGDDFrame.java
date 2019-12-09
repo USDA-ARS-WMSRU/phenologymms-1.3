@@ -864,6 +864,10 @@ public class WWSetGDDFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
+		if(RoboHelp.openHelpPage("Growth_Stages/Winter_Wheat_Growth_Stages.htm")) {
+			return;
+		}
+		
         if (helpOn == true) {
             myHelpFrame.setVisible(true);
             helpOn = false;

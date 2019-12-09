@@ -33,6 +33,15 @@
 	</GlossaryFileNames>
 	<ignoredwords>
 		<word>AV</word>
+		<word>ext</word>
+		<word>GrainFill.html</word>
+		<word>file.scirp.org</word>
+		<word>pdf</word>
+		<word>www.fao.org</word>
+		<word>docrep</word>
+		<word>www.extension.umn.edu</word>
+		<word>AsgrowandDEKALB.com.</word>
+		<word>www.aganytime.com</word>
 	</ignoredwords>
 	<TODOList>
 		<TODOItem>First Draft</TODOItem>

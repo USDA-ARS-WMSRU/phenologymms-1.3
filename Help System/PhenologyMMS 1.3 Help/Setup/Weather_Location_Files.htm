@@ -13,19 +13,19 @@
 
 <body>
 <h1><a name="Weather_Location_Files"></a>Weather/Location Files</h1>
-<p class="msolistparagraphcxspfirst" style="text-indent: -0.25in;">A.A. 
+<p class="msolistparagraphcxspfirst" style="text-indent: -0.25in;">&#160;&#160;&#160;&#160;&#160;A. 
  &#160;&#160;&#160;The Structure of a <?rh-glo_start class="glossterm"?>Weather 
  File<?rh-glo_end ?> – A <?rh-glo_start class="glossterm"?>location weather 
  file<?rh-glo_end ?> contains data for a specific number of years/days 
  and includes at the least, precipitation and temperature data. PhenologyMMS 
  can <?rh-glo_start class="glossterm"?>run<?rh-glo_end ?> with just these 
  two weather variables. Additional climate <?rh-glo_start class="glossterm"?>inputs<?rh-glo_end ?> 
- may be included in the file if available.</p>
+ may be included in the file, if available.</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Precipitation 
  (precip) – This is the daily precipitation for each day of the weather 
  record. Depending on the location, many days will be 0.0. The units are 
- in mm.</p>
+ in mm. 25.4 mm = 1 inch.</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">2. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Temperature 
  -</p>
@@ -55,15 +55,15 @@
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Day 
  of Year – The day in the year of observation, e.g. 150, that corresponds 
  to the date, May 30, in a non-leap year.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">7. 
+<p class="msolistparagraphcxspmiddle" style="margin-left: 96px; text-indent: -0.25in;">7. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Additional 
  columns are included in the supplied weather files as these are also used 
  for another model which requires these columns. These are for the day, 
- month and year. This year is not the calendar year; it is the number of 
- the year in the sequence of years within the weather file.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">B. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">&#160;&#160;&#160;B. 
+ month and year. This year is not the &#160;calendar year; it is the number 
+ of the year in the sequence of years within the weather file.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 96px; text-indent: -0.25in;"><span 
+	 style="font: '7pt/normal' 'Times New Roman'; text-indent: -0.25in;">&#160;&#160;&#160;&#160;</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">&#160;&#160;&#160;&#160;&#160;B. 
  &#160;&#160;&#160;How to Add a Weather File.</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Construct 
@@ -89,7 +89,7 @@
 	 style="text-indent: -9pt;">i.</span> <span style="text-indent: -9pt;">&#160;<?rh-glo_start 
  class="glossterm"?>DOY<?rh-glo_end ?> – <?rh-glo_start class="glossterm"?>Day 
  of year<?rh-glo_end ?>, i.e., the sequentially numbered day from Jan. 
- 1 to the day in the date of interest.</span></p>
+ 1 to the day of the date of interest.</span></p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">j. 
  &#160;<span class="spelle">SoilTemp</span> – the day’s maximum soil temperature 
  at 5 cm depth in °C.</p>
@@ -121,7 +121,7 @@
 <p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
 	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;°F 
- = 9/5 °C + 32</p>
+ = (9/5 * °C) + 32</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c. 
  To convert between MJ/m² and Langley’s/day</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
@@ -136,8 +136,8 @@
  Langley’s/day = 350/23.895 = 14.6 MJ/m²</p>
 <p class="msolistparagraphcxspfirst" style="text-indent: -9pt; margin-left: 1.5in;">d. 
  Fill the spreadsheet with data. Even though there are columns in the file 
- not needed by PhenologyMMS, they are read in and, therefore these columns 
- must be present in the file.</p>
+ not needed by PhenologyMMS, they are read in but not used and therefore, 
+ these columns must be present in the file.</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">3. 
  <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;How 
  to Handle Missing Data</p>
@@ -164,12 +164,12 @@
 <p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c.&#160;Precip 
  is a difficult climate variable to estimate because it doesn’t rain daily 
  as temperature always has a daily value. Also, the amount of precip when 
- it does occur can be quite variable.&#160;&#160;Generally, we simply entered 
+ it does occur can be quite variable.&#160;&#160;Generally, we simply enter 
  999.9 to indicate a missing value.</p>
 <p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">d.&#160;Another 
  possible way to fill in missing Precip values is to find a weather station 
  close by to the area of interest and fill in with data from that station, 
- if available.</p>
+ if data are available for those dates.</p>
 <p class="msolistparagraphcxsplast" style="text-indent: -9pt; margin-left: 1.5in;">e.&#160;A 
  good source of weather data can be found at the <a href="../References_and_Documents/References_and_Documents.htm#NCDC_weather_data_access">NCDC</a> 
  (National Climate Data Center) at the NOAA (National Oceanic and Atmospheric 

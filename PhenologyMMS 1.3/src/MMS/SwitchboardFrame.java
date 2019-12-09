@@ -304,8 +304,12 @@ public class SwitchboardFrame extends JFrame {
  
 //    //old way of accessing help text files
     void jBHelp_actionPerformed(ActionEvent e) {
+		if(RoboHelp.openHelpPage("Setup/Begin_Setup.htm")) {
+			return;
+		}
+		
         if (helpOn == true) {
-            myHelpFrame.setVisible(true);
+			myHelpFrame.setVisible(true);
             helpOn = false;
         } else {
             myHelpFrame.setVisible(false);
@@ -413,7 +417,7 @@ public class SwitchboardFrame extends JFrame {
         String varPath = getAppPath();
         
         //GiveFiles varFiles = new GiveFiles(varPath, varDir, "txt");
-        //debe changed extensin to "dat"
+        //debe changed extension to "dat"
         GiveFiles varFiles = new GiveFiles(varPath, varDir, "dat");
         myVarFiles = varFiles.getFileList();
 

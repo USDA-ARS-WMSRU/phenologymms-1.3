@@ -864,6 +864,10 @@ public class SBSetGDDFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
+		if(RoboHelp.openHelpPage("Growth_Stages/Spring_Barley_Growth_Stages.htm")) {
+			return;
+		}
+		
         if (helpOn == true) {
             myHelpFrame.setVisible(true);
             helpOn = false;
@@ -1396,7 +1400,7 @@ public class SBSetGDDFrame extends JFrame {
 // *********** make sure that the Generic variety is set as default
         for (int i = 0; i < allVarieties.size(); i++) {
             thisStage = (SBGrowthStages) allVarieties.get(i);
-            if (thisStage.myType.equalsIgnoreCase("8-Leaved")) {//de changed default to 8-leaved variety
+            if (thisStage.myType.equalsIgnoreCase ("Generic")){ //("8-Leaved")) //de changed default to 8-leaved variety and later to Generic.
                 return thisStage;
             }
         }
