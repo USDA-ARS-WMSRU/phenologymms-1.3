@@ -9,7 +9,8 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 public class RoboHelp {
-	private static final File helpDirectory = new File("WebHelp_Pro");
+	//private static final File helpDirectory = new File("WebHelp_Pro");
+        private static final File helpDirectory = new File("WebHelp");
 	private static final boolean helpAvailable = helpDirectory.exists();
 	private static final String baseUrl = helpDirectory.toURI().toString();
 	
